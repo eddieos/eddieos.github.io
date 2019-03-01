@@ -180,6 +180,10 @@ nav ul li a:hover {
 
 /* education & experience */
 
+.experience_single, .education_single {
+	margin-bottom: 30px;
+}
+
 .education_single h4,
 .experience_single h4 {
 	font-size: 20px;
