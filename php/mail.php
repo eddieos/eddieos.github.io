@@ -18,7 +18,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "hello@sojonever.com";
+        $recipient = "eekhoragbon@gmail.com";
 
         // Set the email subject.
         $subject = "New Message from qrop by - $name";
