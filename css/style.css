@@ -753,3 +753,17 @@ footer a:hover {
 }
 
 /* end of footer section */
+
+/* begin of project section */
+.overview-icon {
+	color: #ffffff;
+	background-color: #2564e4;
+	padding: 8px;
+	border-radius: 50%;
+	margin-right: 12px;
+}
+
+
+/* end of project section */
+
+
