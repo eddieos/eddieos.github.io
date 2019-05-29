@@ -46,10 +46,10 @@
         // intro opacity init
         $('.qrop_intro').css('opacity', 1 - $(window).scrollTop() / 300);
 
-        // scrollToDark init
-        var styleTrigger = $('.qrop_about').offset();
-        if($(window).scrollTop() > styleTrigger.top-200){ $('body').addClass('qrop_dark'); } 
-        else { $('body').removeClass('qrop_dark'); }
+        // // scrollToDark init
+        // var styleTrigger = $('.qrop_about').offset();
+        // if($(window).scrollTop() > styleTrigger.top-200){ $('body').addClass('qrop_dark'); }
+        // else { $('body').removeClass('qrop_dark'); }
 
     });
 
@@ -81,7 +81,7 @@
         });
 
         // parallax init
-        var rellax = new Rellax('.rellax');
+        // var rellax = new Rellax('.rellax');
 
         // wow init
         var wow = new WOW().init();
