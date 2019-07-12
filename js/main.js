@@ -121,7 +121,27 @@
             items:1
         });
         // end of testimonial carousel
-        
+
+        // brgin of phone carousel
+        $('.owl-carousel.phone-carousel').owlCarousel({
+            center: true,
+            nav:true,
+            margin:20,
+            loop:true,
+            navText: ["<span class='mbri-left'></span>", "<span class='mbri-right'></span>"],
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:3
+                }
+            }
+        });
+        // end of phone carousel
 
         // magnificPopup init
         $(".zoom-gallery").magnificPopup({
