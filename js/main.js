@@ -128,6 +128,9 @@
             nav:true,
             margin:20,
             loop:true,
+            autoplay: true,
+            autoplayTimeout:2000,
+            autoplayHoverPause:true,
             navText: ["<span class='mbri-left'></span>", "<span class='mbri-right'></span>"],
             responsive:{
                 0:{
