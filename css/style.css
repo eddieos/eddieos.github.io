@@ -810,7 +810,7 @@ video {
     position: absolute;
     bottom: 40px;
     width: 280px;
-    opacity: 0.4;
+    opacity: 0.6;
     transition: all 0.3s cubic-bezier(0.0, 0.0, 0.2, 1);
     transform: scale(0.9);
 }
@@ -849,7 +849,7 @@ video {
     -webkit-flex-basis: 50%; /* Safari 6.1+ */
     flex-basis: 50%;
     transition: all 0.5s;
-    background: url("../img/cover-photo/black.jpg") right no-repeat;
+    background: url("../img/cover-photo/colored.jpg") right no-repeat;
     background-size: cover;
     height: 485px;
     position: relative;
@@ -865,10 +865,13 @@ video {
 .eddieos-face .designer:hover {
     background-position-x: -5px;
     background-position-y: 4px;
+    background-image: url("../img/cover-photo/cartooned.jpg");
 }
 .eddieos-face .coder:hover {
     background-position-x: calc(100% + 5px);
     background-position-y: 4px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 .eddieos-face .designer:hover .description, .eddieos-face .coder:hover .description {
