@@ -1,123 +1,739 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content=" U.I/U.X Designer and Developer.">
+    <meta name="keywords" content="Designer, Porfolio, Developer, Desingineer, HTML/CSS Specialist, PSD to HTML">
+    <meta name="author" content="eddieos">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
 
-    <title>eddieos | U.I/U.X Designer and Developer.</title>
-
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
     <!-- favicon -->
-    <link rel="icon" type="image/png" href="images/favicon-eddieos.png"/>
-
-
-    <script type="text/javascript" src="js/jquery-1.7.min.js"></script>
-    <script type="text/javascript" src="js/jquery.countdown.js"></script>
-    <script type="text/javascript" src="js/jquery.tipsy.js"></script>
-    <script type="text/javascript" src="js/jquery.subscribe.js"></script>
-    <script type="text/javascript" src="js/jquery.contact.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
-
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#2564e4">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+    <!-- title -->
+    <title>eddieos | U.I/U.X Designer and Developer.</title>
+    <!-- =====================================
+    ============   ALL CSS HERE   ============
+    ====================================== -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Mobiriseicons-icons -->
+    <link rel="stylesheet" href="css/mobiriseicons.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- Animated-headline -->
+    <link rel="stylesheet" href="css/animated-headline.css">
+    <!-- MagnificPopup CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- OwlCarousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Common CSS -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
-<div id="wrapper">
-    <header>
-        <a class="logo" href="index.html"><img style="height: 133px" src="images/favicon-eddieos.png" alt="logo" title="logo"/></a>
-    </header>
+<!-- begin of preloader -->
+<div class="preloader">
+    <div class="line_loader"></div>
+    <p>loading</p>
+</div>
+<div class="overlay2"></div>
+<div class="overlay"></div>
+<!-- end of preloader -->
 
-    <div id="book">
+<!-- begin of main wrapper -->
+<div id="page_top" class="qrop_main">
 
-        <!--<div id="ribbon" class="contact">click me to reveal the contact form</div>-->
-        <div class="top-page"></div>
+    <!-- begin of intro wrapper -->
+    <div class="qrop_intro_wrap">
+        <!-- begin of navbar -->
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 col-md-6 col-5">
+                        <!-- logo -->
+                        <a href="#page_top"><img class="logo" src="img/favicon-eddieos.png" alt="logo"></a>
 
-        <div class="content-page">
-            <div class="top-spiral"></div>
-            <div class="bottom-spiral"></div>
+                        <ul id="menu">
+                            <li><a href="#qrop_about">about</a></li>
+                            <li><a href="#qrop_services">services</a></li>
+                            <li><a href="#qrop_works">works</a></li>
+                            <li><a href="#qrop_blogs">blogs</a></li>
+                            <li><a href="#qrop_testimonial">testimonial</a></li>
+                            <li class="d-none"><a href="#qrop_contact">say hello</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-7 text-right">
+                        <a class="qrop_btn" href="#qrop_contact">Say Hello</a>
 
-            <div id="cform">
-                <div class="row"></div>
-                <h3>Get in touch with us:</h3>
-                <div class="form-wrapper in-touch">
-                    <div id="message"></div>
-                    <form method="post" action="php/contact.php" name="contactform" id="contactform">
-                        <input type="text" name="name" placeholder="Name" id="name"/>
-                        <input type="text" name="email" placeholder="Email" id="email"/>
-                        <input type="text" name="phone" placeholder="Phone" id="phone"/>
-                        <input type="text" name="subject" placeholder="Subject" id="subject"/>
-                        <textarea placeholder="Message" name="comments" id="comments"></textarea>
-                        <div id="captcha">
-                            <span>3+1=</span>
-                            <input type="text" name="verify" id="verify"/>
-                        </div><!--end verify-->
-
-                        <!-- You can stylize the submit button by changing its color. To do this, replace the 'orange' from class="orange" with: yellow, red, purple, green, blue, darkblue, white and black.-->
-                        <input type="submit" name="send" value="SEND" id="submit" class="orange"/>
-                    </form>
-                </div><!--end form-wrapper-->
-            </div><!--end cform-->
-
-            <div id="home">
-                <div class="row"></div>
-                <h2>Portfolio site currently under construction!</h2>
-                <div class="row"></div>
-                <div class="row"></div>
-                <h3>I am doing my best and  working hard to reveal what I do:</h3>
-
-                <div id="countdown"></div>
-                <div class="clear"></div>
-                <div style="text-align: center; margin-top: 20px">
-
-                    <a style="font-size: 24px; padding: 12px" class="orange" href="mailto:eekhoragbon@gmail.com">Reach me</a>
-
+                        <!-- mobile menu button -->
+                        <div class="mobile_menu_btn">
+                            <span class="mbri-menu"></span>
+                        </div>
+                    </div>
                 </div>
-                <!--<div class="row"></div>-->
-                <!--<div class="form-wrapper email-list">-->
-                    <!--<div id="mesaj"></div>-->
-                    <!--<form id="subscribe" method="post" action="php/subscribe.php" name="subscribe">-->
-                        <!--<input type="text" id="semail" name="YourEmail" placeholder="Subscribe to our email list"/>-->
+            </div>
+        </nav>
+        <!-- end of navbar -->
 
-                        <!--&lt;!&ndash; You can stylize the submit button by changing its color. To do this, replace the 'orange' from class="orange" with: yellow, red, purple, green, blue, darkblue, white and black.&ndash;&gt;-->
-                        <!--<input type="submit" id="ssubmit" name="subscribe" value="SUBSCRIBE" class="orange"/>-->
-                    <!--</form>-->
-                <!--</div>&lt;!&ndash;end form-wrapper&ndash;&gt;-->
-            </div><!--end home-->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <!-- brgin of intro -->
+                    <div class="qrop_intro rellax" data-rellax-speed="-3">
+                        <h2>Endurance Ekhoragbon</h2>
+                        <h3 class="cd-headline clip d-inline">
+                            <span>I'm a</span>
+                            <span class="cd-words-wrapper">
+                                    <b class="is-visible">U.I Designer</b>
+                                    <b>U.X Designer</b>
+                                    <b>Product Designer</b>
+                                </span>
+                        </h3>
+                        <h3 class="cd-headline-anim cd-headline clip d-inline">
+                            <span>&amp; a</span>
+                            <span class="cd-words-wrapper">
+                                    <b class="is-visible">Developer</b>
+                                    <b>Researcher</b>
+                                    <b>Owner</b>
+                                <!--<b>Explorer</b>-->
+                                </span>
+                        </h3>
+                    </div>
+                    <!-- end of intro -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <!-- cover image -->
+                    <div class="eddieos-face-img">
+                        <img class="img-fluid" src="img/cover-photo/design-coder.jpg" alt="">
+                    </div>
 
-        </div><!--end content-page-->
+                    <div class="eddieos-face">
 
-        <div class="bottom-page">
-            <ul class="social">
-                <!-- Change the # with the link to your social page. -->
-                <li><a class="facebook tooltip" href="https://www.facebook.com/ekhoragbon.endurance" title="Facebook"></a></li>
-                <li><a class="twitter tooltip" href="https://twitter.com/eddieosuiux" title="Twitter"></a></li>
-                <li><a class="youtube tooltip" href="https://www.youtube.com/channel/UCE0xsqeOLpzazCKszsiftsA" title="YouTube"></a></li>
-                <li><a class="linkedin tooltip" href="https://www.linkedin.com/in/eddieos/" title="LinkedIn"></a></li>
-                <li><a class="dribbble tooltip" href="https://dribbble.com/eddieos" title="Dribbble"></a></li>
+                        <div class="designer">
+                            <div class="description">
+                                <!-- preload hack lol -->
+                                <img src="img/cover-photo/cartooned.jpg" alt="" style="height: 0; opacity: 0">
+                                <img class="img-fluid" src="img/cover-photo/design-sample.jpg" alt="">
 
-                <!-- You can add to social list buttons for digg, delicious, vimeo and dropbox. Just delete the brackets from below -->
-                <!--	<li><a class="digg tooltip" href="#" title="Digg"></a></li>
-                        <li><a class="delicious tooltip" href="#" title="Delicious"></a></li>
-                        <li><a class="vimeo tooltip" href="#" title="Vimeo"></a></li>
-                        <li><a class="dropbox tooltip" href="#" title="DropBox"></a></li>
-                -->
-            </ul>
-        </div><!--end bottom-page-->
-    </div><!--end book-->
+                                <h1>designer</h1>
+                                <p>UI/UX Designer with a passion for designing beautiful and intuitive user
+                                    experiences.</p>
+                            </div>
+                        </div>
 
-    <p class="copyright">Copyright &copy; eddieos - All Rights Reserved</p>
+                        <div class="coder">
+                            <div class="description">
+                                <img class="img-fluid" src="img/cover-photo/code-sample.jpg" alt="">
+                                <h1>&lt;coder&gt;</h1>
+                                <p>User Interface Developer who focuses on writing clean, elegant and efficient code.
+                                    Pixel Perfectionist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-</div><!--end wrapper-->
-<script type="text/javascript" src="js/jquery.placeholder.js"></script>
-<!-- placeholder html5 tag support for IE and Old Browsers -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    </div>
+    <!-- end of intro wrapper -->
+
+
+    <!-- begin of about wrapper -->
+    <div id="qrop_about" class="qrop_about section_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- section title -->
+                    <h2 class="section_title">
+                        <span class="reveal-trigger">About</span><br>
+                        <span class="reveal-trigger">Me</span>
+                    </h2>
+                </div>
+                <div class="col-md-9 wow fadeIn" data-wow-delay=".05s">
+                    <!-- begin of about info -->
+                    <div class="about_info">
+                        <h6 class="section_subtitle">a little thing about me</h6>
+                        <p>Hello!</p>
+                        <p>I'm <span>Endurance Ekhoragbon.</span> You can call me <span>Eddie.</span></p>
+                        <p>I design and code interface for web and mobile with more than 4 years of experience and a
+                            wide range of skills in the industry.
+                            <br>(FinTech, Music, Gaming and Socials)</p>
+
+                        <div class="space-20"></div>
+
+                        <!-- CV download button -->
+                        <a class="qrop_btn" href="img/Endurance's%20Resume.pdf" download>Download CV</a>
+                    </div>
+                    <!-- end of about info -->
+
+                    <div class="space-60"></div>
+
+                    <!-- begin of experience info -->
+                    <div class="row">
+                        <div class="col">
+                            <h6 class="section_subtitle">experience</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".05s">
+                            <div class="experience_single">
+                                <h4>CLANE Limited <a href="http://www.clane.me/" target="_blank"><span
+                                        class="mbri-link"></span></a></h4>
+                                <p>U.I/U.X Designer and Developer</p>
+                                <p>Aug, 2018 - Now</p>
+                                <p>Lagos, Nigeria</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".25s">
+                            <div class="experience_single sm-mt-30">
+                                <h4>Tunga and DevCenter</h4>
+                                <p>U.I/U.X Designer and Developer</p>
+                                <p>2015 - Now</p>
+                                <p>Remote</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".15s">
+                            <div class="experience_single xsm-mt-30">
+                                <h4>MCOMM Solutions</h4>
+                                <p>U.I/U.X Engineer</p>
+                                <p>Feb, 2018 - Aug, 2018</p>
+                                <p>Lagos, Nigeria</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".25s">
+                            <div class="experience_single sm-mt-30">
+                                <h4>GlossKode Solutions</h4>
+                                <p>Lead Interface Designer</p>
+                                <p>April, 2017 - Feb, 2018</p>
+                                <p>Lagos, Nigeria</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".25s">
+                            <div class="experience_single sm-mt-30">
+                                <h4>SoftQuest Systems Limited</h4>
+                                <p>Web Designer</p>
+                                <p>Aug, 2016 - Mar, 2017</p>
+                                <p>Lagos, Nigeria</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of experience info -->
+
+                    <div class="space-40"></div>
+
+                    <!-- begin of education info -->
+                    <div class="row">
+                        <div class="col">
+                            <h6 class="section_subtitle">education</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".05s">
+                            <div class="education_single">
+                                <h4>Membership Certificate</h4>
+                                <p>The Interaction Design Foundation</p>
+                                <p>2018 - Now</p>
+                                <p>Online Tutor</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".05s">
+                            <div class="education_single">
+                                <h4>Short Courses - uXD, H.C.I</h4>
+                                <p>Udemy Academy</p>
+                                <p>2017 - Now</p>
+                                <p>Online Tutor</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".15s">
+                            <div class="education_single xsm-mt-30">
+                                <h4>Computer Science</h4>
+                                <p>University of Benin</p>
+                                <p>2015</p>
+                                <p>Benin, Nigeria</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- end of education info -->
+
+                    <div class="space-40"></div>
+
+                    <!-- begin of skills info -->
+                    <div class="row">
+                        <div class="col">
+                            <h6 class="section_subtitle">skills</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".05s">
+                            <div class="skills">
+                                <div>
+                                    <!-- skill name -->
+                                    <h5>U.I Design (Sketch, Figma ..)</h5>
+                                    <!-- skill bar -->
+                                    <div class="skill_line">
+                                        <div class="skill_width wow slideInLeft" style="width:86%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="space-20"></div>
+
+                                <div>
+                                    <!-- skill name -->
+                                    <h5>Wireframing (Balsamiq ..)</h5>
+                                    <!-- skill bar -->
+                                    <div class="skill_line">
+                                        <div class="skill_width wow slideInLeft" style="width:73%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".15s">
+                            <div class="skills xsm-mt-30">
+                                <div>
+                                    <!-- skill name -->
+                                    <h5>Mobile and Web UI/UX</h5>
+                                    <!-- skill bar -->
+                                    <div class="skill_line">
+                                        <div class="skill_width wow slideInLeft" style="width:90%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="space-20"></div>
+
+                                <div>
+                                    <!-- skill name -->
+                                    <h5>U.X Research</h5>
+                                    <!-- skill bar -->
+                                    <div class="skill_line">
+                                        <div class="skill_width wow slideInLeft" style="width:68%"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".25s">
+                            <div class="skills sm-mt-30">
+
+                                <div>
+                                    <!-- skill name -->
+                                    <h5>HTML/CSS/SCSS</h5>
+                                    <!-- skill bar -->
+                                    <div class="skill_line">
+                                        <div class="skill_width wow slideInLeft" style="width:89%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="space-20"></div>
+
+                                <div>
+                                    <!-- skill name -->
+                                    <h5>React Native UI, Ionic UI ..</h5>
+                                    <!-- skill bar -->
+                                    <div class="skill_line">
+                                        <div class="skill_width wow slideInLeft" style="width:72%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of skills info -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of about wrapper -->
+
+    <!-- begin of service wrapper -->
+    <div id="qrop_services" class="qrop_services section_padding">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-md-3">
+                    <h2 class="section_title">
+                        <span class="reveal-trigger">My</span><br>
+                        <span class="reveal-trigger">Services</span>
+                    </h2>
+                </div>
+                <div class="col-md-9">
+                    <div class="owl-carousel service_carousel">
+                        <!-- service single item -->
+                        <div class="service_item wow fadeIn" data-wow-delay=".05s">
+                            <span class="service_icon mbri-responsive"></span>
+                            <h4>Web Design</h4>
+                            <p>Designing and developing websites that fit into various screen sizes for best
+                                experience.</p>
+                        </div>
+
+                        <!-- service single item -->
+                        <div class="service_item wow fadeIn" data-wow-delay=".15s">
+                            <span class="service_icon mbri-cursor-click"></span>
+                            <h4>UI/UX Design</h4>
+                            <p>Wireframing, creating high fidelity mockup for mobile and web applications.</p>
+                        </div>
+
+                        <!-- service single item -->
+                        <div class="service_item wow fadeIn" data-wow-delay=".25s">
+                            <span class="service_icon mbri-code"></span>
+                            <h4>U.I Development</h4>
+                            <p>Coding interfaces for mobile and web applications, using HTML/CSS, React.js, React
+                                Native, Ionic..</p>
+                        </div>
+
+                        <!-- service single item -->
+                        <div class="service_item wow fadeIn" data-wow-delay=".25s">
+                            <span class="service_icon mbri-contact-form"></span>
+                            <h4>U.X Research</h4>
+                            <p>User Stories, personas, and problem solving approaches to product development.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of service wrapper -->
+
+    <!-- begin of works wrapper -->
+    <div id="qrop_works" class="qrop_works section_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2 class="section_title">
+                        <span class="reveal-trigger">Latest</span><br>
+                        <span class="reveal-trigger">Projects</span>
+                    </h2>
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col">
+                            <div class="filter_buttons">
+                                <button class="btn_active" data-filter="*">all</button>
+                                <button data-filter=".design">U.I design</button>
+                                <button data-filter=".develop">U.I development</button>
+                                <button data-filter=".research">U.X Research</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row work_items zoom-gallery">
+                        <!-- work single item -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 develop">
+                            <div class="work_single_item">
+                                <div class="work_image">
+                                    <a class="" href="projects/ligare_web_app.html">
+                                        <img class="img-fluid" src="img/projects/ligare-dashboard/ligare-webapp.png"
+                                             alt="">
+                                    </a>
+                                </div>
+                                <div class="work_item_info">
+                                    <h4>Ligare <br>
+                                        Web Application</h4>
+                                    <p>U.I Development</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- work single item -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 develop research">
+                            <div class="work_single_item">
+                                <div class="work_image">
+                                    <a class="" href="projects/crusader_sterling.html">
+                                        <img class="img-fluid" src="img/projects/crusader/crusader-preview.jpg" alt="">
+
+                                    </a>
+                                </div>
+                                <div class="work_item_info">
+                                    <h4>Crusader Sterling <br>
+                                        Pension Mobile</h4>
+                                    <p>U.X Design and development</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- work single item -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 develop">
+                            <div class="work_single_item">
+                                <div class="work_image">
+                                    <a class="" href="projects/niluk.html">
+                                        <img class="img-fluid" src="img/projects/niluk/niluk-preview.png"
+                                             alt="">
+                                    </a>
+                                </div>
+                                <div class="work_item_info">
+                                    <h4>Niluk</h4>
+                                    <p>U.I development</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- work single item -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 develop research">
+                            <div class="work_single_item">
+                                <div class="work_image">
+                                    <a class="zoom_image" href="img/projects/glosscare/glosscare-preview.png">
+                                        <img class="img-fluid" src="img/projects/glosscare/glosscare-preview.png"
+                                             alt="">
+                                    </a>
+                                </div>
+                                <div class="work_item_info">
+                                    <h4>Glosscare+</h4>
+                                    <p>U.X Design and development</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- work single item -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 design research">
+                            <div class="work_single_item">
+                                <div class="work_image">
+                                    <a class="" href="projects/pallmax.html">
+                                        <img class="img-fluid" src="img/projects/pallamax/pallamax-preview.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="work_item_info">
+                                    <h4>Pallmax <br>
+                                        Inventory System</h4>
+                                    <p>U.I/U.X Design</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- work single item -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 develop">
+                            <div class="work_single_item">
+                                <div class="work_image">
+                                    <a class="" href="projects/ligare_web.html">
+                                        <img class="img-fluid" src="img/projects/ligare-web/ligare-web-preview.jpg"
+                                             alt="">
+                                    </a>
+                                </div>
+                                <div class="work_item_info">
+                                    <h4>Ligare <br>Official Website</h4>
+                                    <p>U.I development</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- work single item -->
+                        <!--                        <div class="col-lg-4 col-md-6 col-sm-6 research design">-->
+                        <!--                            <div class="work_single_item">-->
+                        <!--                                <div class="work_image">-->
+                        <!--                                    <a class="" href="projects/ojirehprime.html">-->
+                        <!--                                        <img class="img-fluid" src="img/projects/ojirehprime/ojirehprime-preview.png"-->
+                        <!--                                             alt="">-->
+                        <!--                                    </a>-->
+                        <!--                                </div>-->
+                        <!--                                <div class="work_item_info">-->
+                        <!--                                    <h4>OjirehPrime</h4>-->
+                        <!--                                    <p>U.I/U.X Design</p>-->
+                        <!--                                </div>-->
+                        <!--                            </div>-->
+                        <!--                        </div>-->
+
+                        <!-- work single item -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 research develop design">
+                            <div class="work_single_item">
+                                <div class="work_image">
+                                    <a class="zoom_image" href="img/projects/mentions/mentions-preview.jpg">
+                                        <img class="img-fluid" src="img/projects/mentions/mentions-preview.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="work_item_info">
+                                    <h4>Honourable <br> Mentions</h4>
+                                    <p>U.I/U.X Research and design</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- work single item -->
+                        <!--                        <div class="col-lg-4 col-md-6 col-sm-6 design">-->
+                        <!--                            <div class="work_single_item">-->
+                        <!--                                <div class="work_image">-->
+                        <!--                                    <a class="zoom_image" href="img/work_09.jpg">-->
+                        <!--                                        <img class="img-fluid" src="img/projects/emoco/emoco-preview.png" alt="">-->
+                        <!--                                    </a>-->
+                        <!--                                </div>-->
+                        <!--                                <div class="work_item_info">-->
+                        <!--                                    <h4>Emoco <br> Portfolio Site</h4>-->
+                        <!--                                    <p>design</p>-->
+                        <!--                                </div>-->
+                        <!--                            </div>-->
+                        <!--                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of works wrapper -->
+
+    <!-- begin of blogs wrapper -->
+    <div id="qrop_blogs" class="qrop_blogs section_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2 class="section_title">
+                        <span class="reveal-trigger">Latest</span><br>
+                        <span class="reveal-trigger">Blogs</span>
+                    </h2>
+                </div>
+                <div class="col-md-9">
+                    <img class="img-fluid" src="img/coming-soon.jpg" alt="">
+                    <!--                    <div class="row">-->
+                    <!--                        &lt;!&ndash; blog single item &ndash;&gt;-->
+                    <!--                        <div class="col-md-4 wow fadeIn" data-wow-delay=".05s">-->
+                    <!--                            <div class="blog_item">-->
+                    <!--                                <div class="blog_img">-->
+                    <!--                                    <img class="img-fluid" src="img/cover-photo/colored.jpg" alt="">-->
+                    <!--                                </div>-->
+                    <!--                                <div class="blog_item_info">-->
+                    <!--                                    <h4>Using images best practice with CSS</h4>-->
+                    <!--                                    <p>Having troubles with users uploading clunky and unfit images?</p>-->
+                    <!--                                    <a href="blog_single.html">Read More</a>-->
+                    <!--                                </div>-->
+                    <!--                            </div>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of blogs wrapper -->
+
+
+    <!-- begin of testimonials wrapper -->
+    <div id="qrop_testimonial" class="qrop_testimonial section_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2 class="section_title">
+                        <span class="reveal-trigger">Clients</span><br>
+                        <span class="reveal-trigger">Review</span>
+                    </h2>
+                </div>
+                <div class="col-md-3 wow fadeIn" data-wow-delay=".05s">
+                    <p class="testimonial_quote mbri-quote-right"></p>
+                    <h6 class="section_subtitle">trustred from over<br>20+ clients</h6>
+                </div>
+                <div class="col-md-6 wow fadeIn" data-wow-delay=".15s">
+                    <div class="owl-carousel testimonial_carousel">
+                        <div class="testimonial_item">
+                            <h5>
+                                "Eddieos takes to heart the need of end users and at the same time does his best
+                                to
+                                interpret what the client provides to deliver meaningful UX designs"
+                            </h5>
+                            <p>Elijah Atuhaire <span>(Project Manager Tunga)</span></p>
+                        </div>
+                        <div class="testimonial_item">
+                            <h5>
+                                "Endurance is a creative user interface developer who is always able to picture every project as though he's the user and this makes him pay attention to every detail.."
+                            </h5>
+                            <p>David <span>(GlossKode Tech)</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of testimonials wrapper -->
+
+    <!-- begin of contact wrapper -->
+    <div id="qrop_contact" class="qrop_contact section_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2 class="section_title">
+                        <span class="reveal-trigger">Say</span><br>
+                        <span class="reveal-trigger">Hello</span>
+                    </h2>
+                </div>
+                <div class="col-md-9 wow fadeIn" data-wow-delay=".05s">
+                    <form action="https://formspree.io/eekhoragbon@gmail.com" method="POST">
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="form-message mb-2"></p>
+                            </div>
+                            <div class="col-md-4">
+                                <!-- input field for NAME -->
+                                <input class="input_fild contact_name" type="text" name="name"
+                                       placeholder="Name*" required>
+
+                                <!-- input field for EMAIL -->
+                                <input class="input_fild contact_email" type="email" name="email"
+                                       placeholder="Email Address*" required>
+                            </div>
+                            <div class="col-md-8">
+                                <!-- input field for MESSAGE -->
+                                <textarea class="input_fild contact_message" name="message"
+                                          placeholder="Message*" required></textarea>
+
+                                <!-- button for MESSAGE-SEND -->
+                                <button class="contact_button qrop_btn" type="submit">send message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of contact wrapper -->
+
+    <!-- begin of footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-12">
+                    <p>&copy; Copyright 2019 - <a href="index.html">eddieos.me</a></p>
+                </div>
+                <div class="col-md-7 col-sm-12">
+                    <ul class="footer_nav">
+                        <li><a href="https://www.facebook.com/ekhoragbon.endurance">Facebook</a></li>
+                        <li><a href="https://twitter.com/eddieosuiux">Twitter</a></li>
+                        <li><a href="https://www.instagram.com/eddieosas">Intstagram</a></li>
+                        <li><a href="https://dribbble.com/eddieos">Dribbble</a></li>
+                        <li><a href="https://www.behance.net/eddieos">Behance</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+</div>
+<!-- end of main wrapper -->
+
+
+<!-- =====================================
+============   ALL JS HERE   ============
+====================================== -->
+<!-- jQuery JS -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<!-- Plugins JS -->
+<script src="js/plugins.js"></script>
+<!-- Main JS -->
+<script src="js/main.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49184917-3"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-49184917-3');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-49184917-3');
 </script>
-
 </body>
-</html>
 
+</html>
