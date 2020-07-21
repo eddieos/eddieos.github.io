@@ -728,7 +728,7 @@ footer {
     border-top: 1px solid #eee;
     line-height: 70px;
     position: relative;
-    z-index: 999;
+    z-index: 1;
 }
 
 .footer_nav {
