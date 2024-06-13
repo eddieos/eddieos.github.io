@@ -23091,7 +23091,7 @@ body .btn4 {
   gap: 30px;
   display: grid;
   align-items: center;
-  grid-template-columns:1fr .58fr;
+  grid-template-columns:1fr 1fr;
   padding-bottom: 40px
 }
 
