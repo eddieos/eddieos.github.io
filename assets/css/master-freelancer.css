@@ -26517,7 +26517,8 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 .freelancer-hero__area .shape-3 {
   position: absolute;
   top: 52%;
-  inset-inline-end: 24%
+  inset-inline-end: 24%;
+  z-index: -1
 }
 
 @media only screen and (max-width: 767px) {
