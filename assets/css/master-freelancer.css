@@ -23095,6 +23095,10 @@ body .btn4 {
   padding-bottom: 40px
 }
 
+.beforeAfter img {
+  max-width: unset;
+}
+
 @media only screen and (max-width: 767px) {
   .project-sm-thumb {
     grid-template-columns:1fr
